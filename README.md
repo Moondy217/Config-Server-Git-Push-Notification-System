@@ -13,7 +13,7 @@ This project integrates a Config Server with a Git repository to automatically d
 2. **Git Hook (`post-receive`)**: This script runs on every push to `main` and sends a POST request to the backend's notification API.
 3. **Backend Confirmation**: The backend logs and confirms the push event.
 
-# Config Server Git Push Notification System
+# Config Server Git Push Notification System (KR)
 
 ## 개요
 이 프로젝트는 Config Server와 Git repository가 연동되어, Git에 YAML 파일 변경 사항이 푸시되면 이를 자동으로 감지하여 Config Server가 백엔드 서버에 푸시 알림을 보내는 기능을 포함하고 있다. 이를 통해 Config Server의 설정 변경이 자동으로 백엔드 서버에 전달되며, 설정 업데이트를 쉽게 관리할 수 있다.
